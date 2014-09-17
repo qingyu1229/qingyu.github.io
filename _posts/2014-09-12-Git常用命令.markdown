@@ -17,8 +17,10 @@ date: 2014-09-12
 
  - git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址
 
-> git config --global user.name "Your name"
+{% highlight java %}
+git config --global user.name "Your name"
 git config --global user.email "email@XX.com"
+{% endhighlight %}
 
 ## 创建版本库repository ##
  - 首先找一个地方，创建一个空目录,然后使用git init 命令
@@ -59,7 +61,9 @@ git commit命令执行成功后会告诉你，文件被改动的情况。commit�
 ## 远程仓库 ##
  - 创建SSH key
 
-> ssh-keygen -t rsa -C "email@xx.com"
+{% highlight java %}
+ssh-keygen -t rsa -C "email@xx.com"
+{% endhighlight %}
 
 如果一切顺利的话，可以在用户主目录里找到.ssh目录，里面有id_rsa和id_rsa.pub两个文件，这两个就是SSH Key的秘钥对，id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以放心地告诉任何人 
 
@@ -74,5 +78,6 @@ git push -u origin mastercd
 **此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改**
 
 ## 从远程仓库克隆 ##
-
-> git clone git@github.com:pastqing/wangdao.git
+{% highlight java %}
+ git clone git@github.com:pastqing/wangdao.git
+{% endhighlight %}
