@@ -17,7 +17,7 @@ index: true
 			</p>
 		</header>
 		<div class="post-description">
-			{{ post.content | split:'<!-- more -->'| first }}
+			{{ post.content | split:'<!-- more -->'| second }}
 			<a href="{{ post.url }}" class="post-categorybut-readall">阅读全文 >></a>
 		</div>
 	</section>

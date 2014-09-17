@@ -9,7 +9,7 @@ markdown_ext:  markdown,mkd,mkdn,md
 highlighter: pygments
 
 permalink: /blog/:year/:month/:day/:title.html
-paginate: 3
+paginate: 5
 paginate_path: "page/:num"
 encoding: "utf-8"
 future: true
