@@ -21,7 +21,7 @@ date: 2014-09-12
 git config --global user.name "Your name"
 git config --global user.email "email@XX.com"
 {% endhighlight %}
-
+<!-- more -->
 ## 创建版本库repository ##
  - 首先找一个地方，创建一个空目录,然后使用git init 命令
 > **git init**
