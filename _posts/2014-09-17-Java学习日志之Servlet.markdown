@@ -6,7 +6,7 @@ date: 2014-09-17
 ---
 ## Java学习日志之Servlet
 
-###什么是Servlet
+###什么是Servlet?
 
 {% highlight java %}
 - 顾名思义Servlet就是服务器小程序，这个服务器可以是HTTP服务，也可以是邮件服务，也可以是FTP服务等等
@@ -19,7 +19,7 @@ date: 2014-09-17
     
     **HttpServlet**类已经实现了Servlet接口所有方法，写Servlet时只需要即成这个类就行。
 
-1. **doGet**与**doPost**:   
+- **doGet**与**doPost**:   
  - 这俩对应的就是HTTP报文中的GET与POST方法，也是最常用的两个。   
  - Get通常用于请求服务器发送某个资源。   
  - Post通常用来向服务器输入数据，通常用来支持HTML表单。   
@@ -30,6 +30,6 @@ date: 2014-09-17
     Class HttpServlet   
  {% endhighlight %}   
 
-2. **request**与**response**
+- **request**与**response**
 
 未完。。。。
