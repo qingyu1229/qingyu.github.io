@@ -11,7 +11,9 @@ date: 2014-09-12
 # Git常用命令
 
 ## 安装git ##
-> sudo apt-get install git
+{% highlight java %}
+    sudo apt-get install git
+{% endhighlight %}
 
  - git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址
 
