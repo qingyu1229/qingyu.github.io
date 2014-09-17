@@ -10,7 +10,7 @@ date: 2014-09-17
 - 顾名思义Servlet就是服务器小程序，这个服务器可以是HTTP服务，也可以是邮件服务，也可以是FTP服务等等
 - java Web 应用中的请求-相应都是交给Servlet来完成
 - 原理图如下: 
-<img src="http://www.blogjava.net/images/blogjava_net/fancydeepin/myself/servlet.png" width="40px" height="60px" />
+<img src="http://www.blogjava.net/images/blogjava_net/fancydeepin/myself/servlet.png" width="100px" height="200px" />
 
 ###**Part2.Servelt相关接口**
     **HttpServlet**类已经实现了Servlet接口所有方法，写Servlet时只需要继承这个类就行。
