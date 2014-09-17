@@ -7,10 +7,9 @@ date: 2014-09-17
 ## Java学习日志之Servlet
 
 ###**什么是Servlet?**
-
-    - 顾名思义Servlet就是服务器小程序，这个服务器可以是HTTP服务，也可以是邮件服务，也可以是FTP服务等等
-    - java Web 应用中的请求-相应都是交给Servlet来完成
-    - 原理图如下：   
+- 顾名思义Servlet就是服务器小程序，这个服务器可以是HTTP服务，也可以是邮件服务，也可以是FTP服务等等
+- java Web 应用中的请求-相应都是交给Servlet来完成
+- 原理图如下:
 ！[servlet](http://www.blogjava.net/images/blogjava_net/fancydeepin/myself/servlet.png)
 
 ###**Servelt相关接口**
@@ -26,7 +25,6 @@ date: 2014-09-17
     javax.servlet.http.HttpServlet   
     Class HttpServlet   
 {% endhighlight %}   
-
 
 - **request**与**response**
 
