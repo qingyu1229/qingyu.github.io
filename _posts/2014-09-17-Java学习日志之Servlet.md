@@ -17,7 +17,8 @@ date: 2014-09-17
 
 ###Servelt相关接口    
     
-    **HttpServlet**类已经实现了Servlet接口所有方法，写Servlet时只需要即成这个类就行
+    **HttpServlet**类已经实现了Servlet接口所有方法，写Servlet时只需要即成这个类就行。
+
 1. **doGet**与**doPost**:   
  - 这俩对应的就是HTTP报文中的GET与POST方法，也是最常用的两个。   
  - Get通常用于请求服务器发送某个资源。   
@@ -30,3 +31,5 @@ date: 2014-09-17
  {% endhighlight %}   
 
 2. **request**与**response**
+
+未完。。。。
