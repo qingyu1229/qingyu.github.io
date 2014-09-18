@@ -27,5 +27,28 @@ date: 2014-09-17
 {% endhighlight %}   
 
 - **request**与**response**
+{% highlight java %}
+    1. 客户端发出的请求被封装成一个叫HTTPServletRequest类的对象，request对象包含了基本的请求信息。
+    2. request常用方法：见api文档接口HTTPServletRequest中
+{% endhighlight %}
+    3.服务器的响应封装到了HttpServletResponse类的对象，想对客户端下手就用response的方法～～
+    4.response常用方法：见api文档接口HttpServeltResponse
+
+- **关于Web.xml的相关**
+   1. <servlet>标签用于配置，部署servlet
+   {% highlight java %}
+        <servlet-name>Servlet name </servlet-name>//随意取名，但必须唯一
+        <servlet-class>package.servletclass </servlet-class>//servlet类名
+        <servlet-mapping>//设置访问方式
+            <servlet-name>Servlet name</servlet-name>//与上面的对应
+            <url-pattern>/XXX/FirstServlet </url-pattern>//访问路径
+            <url-pattern>/XXX/FirstServlet.asp</url-pattern>//这里可以映射多个路径，以掩饰用啥玩意开发的
+        </servlet-mapping>
+        以上两个必须有，部署servlet所用
+        <init-param>//初始化参数
+            <param-name>message </param-name>//参数名称
+            <param-value>value </param-value>//参数值
+        </init-param>
+   {% endhighlight %}
 
 未完。。。。
