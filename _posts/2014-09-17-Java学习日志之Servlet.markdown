@@ -29,10 +29,10 @@ date: 2014-09-17
 - **request**与**response**
 {% highlight java %}
     1. 客户端发出的请求被封装成一个叫HTTPServletRequest类的对象，request对象包含了基本的请求信息。
-    2. request常用方法：见api文档接口HTTPServletRequest中
+    2. request常用方法：见api文档接口HTTPServletRequest中.
 {% endhighlight %}
     3.服务器的响应封装到了HttpServletResponse类的对象，想对客户端下手就用response的方法～～
-    4.response常用方法：见api文档接口HttpServeltResponse
+    4.response常用方法：见api文档接口HttpServeltResponse.
 
 - **关于Web.xml的相关**
    1. <servlet>标签用于配置，部署servlet
