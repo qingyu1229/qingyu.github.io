@@ -14,3 +14,8 @@ date: 2014-09-20
 **Math.floor()**: return no more than the Integer 
 **iSNaN**: check is a number or not,  yes is false, no is true
 {% endhighlight %}
+
+##Part2.JQuery的东东
+{% highlight java %}
+
+{% endhighlight %}
