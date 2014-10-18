@@ -1,4 +1,9 @@
-# bootStrap插件 DataTables与X-Editable的综合
+---
+layout: post
+title: bootStrap插件 DataTables与X-Editable的综合
+category: bootStrap
+date: 2014-10-1
+---
 
 标签（空格分隔）： bootStrap Jquery
 
@@ -11,7 +16,8 @@
 > ### 1.引用的插件：
 DataTables:  [下载点这里：）][1]  
 X-Editable:  [下载点这里：）][2]
-```javaScript
+
+{% highlight java %}
 需要引入的样式：
 dataTables.bootstrap.css //DataTable的样式
 bootstrap-editable.css   //X-Editable的样式
@@ -22,11 +28,11 @@ bootstrap.min.js            //bootStrap3的js
 dataTables.bootstrap.js     //dataTables的js
 bootstrap-editable.js       //x-editable的js
 额外我引用了一个自己的主题：components.css layout.css
-```
+{% endhighlight %}
 
 ##开始
 > 1.画一个表格：
-```html
+{% highlight java %}
 <table class="table table-striped table-hover table-bordered" id="table_1">
 	<thead>
 		<tr>
@@ -39,10 +45,10 @@ bootstrap-editable.js       //x-editable的js
 	//tbody里将来会生成动态相应的单元格
 	<tbody></tbody>
 </table>
-```
+{% endhighlight %}
 > 2.编写js主要的是如何将x-editable嵌套进dataTable中，为此我们要使用**fnDrawCallback**回调函数
 这样我们就实现了改的功能
-```
+{% highlight java %}
 $('table_1').dataTable({
     "lengthMenu": [
         [5, 15, 25, -1], //选择每页的条目数
@@ -63,7 +69,7 @@ $('table_1').dataTable({
         });
     }
 });
-```
+{% endhighlight %}
 
 >3.接下来就是删和增的操作了
   [1]: http://www.datatables.net/download/index
