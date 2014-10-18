@@ -8,12 +8,13 @@ date: 2014-10-1
 标签（空格分隔）： bootStrap Jquery
 
 ---
+
 ##前言
 
 ####我们在设计表格（table）的时候，往往需要给表格添加增、删、改、查的基本功能。利用bootstrap的各种相关插件可以轻松的在前台完成这些任务，而且又漂亮又简洁，后台只需通过ajax请求进行数据的交互就行。
     
 ##准备工作
-> ### 1.引用的插件：
+### 1.引用的插件：
 DataTables:  [下载点这里：）][1]  
 X-Editable:  [下载点这里：）][2]
 
@@ -71,6 +72,10 @@ $('table_1').dataTable({
 });
 {% endhighlight %}
 
->3.接下来就是删和增的操作了
-  [1]: http://www.datatables.net/download/index
-  [2]: http://vitalets.github.io/x-editable/
+ 3.接下来就是删和增的操作了
+ 
+ 
+  
+ 
+[1]: http://www.datatables.net/download/index
+[2]: http://vitalets.github.io/x-editable/
