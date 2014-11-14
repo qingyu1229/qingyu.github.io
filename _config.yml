@@ -18,16 +18,16 @@ safe: false
 
 meta:
     blog:
-        name: Pastqing Blog                        #博客名称
-        url:  pastqing.github.io                           #博客地址
+        name: LiangQingYu Blog                        #博客名称
+        url:  qingyu1229.github.io                           #博客地址
         description: Just Do Do Do it.          #二级标题
         speak: 你若是天才，我便是疯子          #标题后面的文字
-        title: Pastqing Blog                       #博客标题
+        title: LiangQingYu Blog                       #博客标题
         rss: /page/rss.xml                      #RSS页面
         baidukey: PLCtR5jCNe                    #百度站长验证的key
     author:
-        name: pastqing                             #作者名称
-        github: https://github.com/pastqing        #github地址
-        weibo: http://weibo.com/u/2545808797           #微博地址
-        email: 116676671@qq.com                #邮箱
+        name: LiangQingYu                            #作者名称
+        github: https://github.com/qingyu1229        #github地址
+        weibo: http://weibo.com/u/1811088830           #微博地址
+        email: 705203544@qq.com                #邮箱
         icon: /res/img/icon.png                 #博客头像
