@@ -16,6 +16,7 @@ future: true
 lsi: true
 safe: false
 ASSET_PATH: /assets/themes/bootstrap-3
+BASE_PATH:   /
 
 meta:
     blog:
