@@ -15,6 +15,7 @@ encoding: "utf-8"
 future: true
 lsi: true
 safe: false
+ASSET_PATH: /assets/themes/bootstrap-3
 
 meta:
     blog:
