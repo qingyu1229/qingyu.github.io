@@ -17,7 +17,7 @@ lsi: true
 safe: false
 ASSET_PATH: /assets/themes/bootstrap-3
 BASE_PATH:   /
-
+blogimgpath: /res/img/blogimg
 meta:
     blog:
         name: LiangQingYu Blog                        #博客名称
