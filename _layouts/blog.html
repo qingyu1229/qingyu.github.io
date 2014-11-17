@@ -3,11 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-		{% if page.description %}
-		<meta name="description" content="{{ site.meta.blog.title }} - {{ site.meta.blog.speak }}, {{ page.description }}">
-		{% else %}
+
 		<meta name="description" content="{{ site.meta.blog.title }} - {{ site.meta.blog.speak }}, {{ site.meta.blog.description }}">
-		{% endif %}
+
 		<meta name="author" content="{{ site.meta.author.name }}">
 		{% if page.index == true %}
 		<meta name="keywords" content="{{ site.meta.blog.title }} - {{ site.meta.blog.speak }}, {{ site.meta.blog.title }}, {{ site.meta.author.name }}, {{ site.meta.blog.speak }}">
