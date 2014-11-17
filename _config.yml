@@ -24,7 +24,7 @@ meta:
         speak: 你若是天才，我便是疯子          #标题后面的文字
         title: LiangQingYu Blog                       #博客标题
         rss: /page/rss.xml                      #RSS页面
-        baidukey: PLCtR5jCNe                    #百度站长验证的key
+        baidukey: 9ugZG2kuDN                   #百度站长验证的key
     author:
         name: LiangQingYu                            #作者名称
         github: https://github.com/qingyu1229        #github地址
