@@ -21,7 +21,7 @@ meta:
         name: LiangQingYu Blog                        #博客名称
         url:  qingyu1229.github.io                           #博客地址
         description: Just Do Do Do it.          #二级标题
-        speak: 你若是天才，我便是疯子          #标题后面的文字
+        speak: 垂直型网络爬虫 Scala教程 设计模式          #标题后面的文字
         title: LiangQingYu Blog                       #博客标题
         rss: /page/rss.xml                      #RSS页面
         baidukey: 9ugZG2kuDN                   #百度站长验证的key
