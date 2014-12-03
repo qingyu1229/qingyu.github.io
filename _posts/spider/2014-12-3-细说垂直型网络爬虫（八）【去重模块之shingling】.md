@@ -30,7 +30,7 @@ in the set.
    { (a,rose,is,a), (rose,is,a,rose), (is,a,rose,is), (a,rose,is,a), (rose,is,a,rose) }
 - 去掉重复的子集合：
    { (a,rose,is,a), (rose,is,a,rose), (is,a,rose,is) }
-- 给定shingle的大小,两个文档A和B的相似度 r 定义为:  
+- 给定shingle的大小,两个文档A和B的相似度 r 定义为:    
    r(A,B)=|S(A)∩S(B)| / |S(A)∪S(B)|
 
 ##代码实现
