@@ -15,7 +15,7 @@ date: 2014-12-3
 据统计，互联网上的重复网页的占比大概在30%-45%之间。
 
 <!-- more -->
-
+ 
 ##shingling算法简介
 借用维基百科对于shingling算法的解释：
 In natural language processing a w-shingling is a set of unique "shingles"—contiguous subsequences of tokens in a
