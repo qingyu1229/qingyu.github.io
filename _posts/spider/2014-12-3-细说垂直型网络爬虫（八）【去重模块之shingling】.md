@@ -22,16 +22,16 @@ date: 2014-12-3
 In natural language processing a w-shingling is a set of unique "shingles"—contiguous subsequences of tokens in a
 document—that can be used to gauge the similarity of two documents. The w denotes the number of tokens in each shingle
 in the set.
-比如，一个文档
+- 比如，一个文档：
    "a rose is a rose is a rose"
-分词后的词汇(token，语汇单元)集合是
+- 分词后的词汇(token，语汇单元)集合是
    (a,rose,is,a,rose,is, a, rose)
-那么w=4的4-shingling就是集合:
+- 那么w=4的4-shingling就是集合:
    { (a,rose,is,a), (rose,is,a,rose), (is,a,rose,is), (a,rose,is,a), (rose,is,a,rose) }
-去掉重复的子集合：
+- 去掉重复的子集合：
    { (a,rose,is,a), (rose,is,a,rose), (is,a,rose,is) }
-给定shingle的大小,两个文档A和B的相似度 r 定义为:
-   r(A,B)=|S(A)∩S(B)| / |S(A)∪S(B)|     
+- 给定shingle的大小,两个文档A和B的相似度 r 定义为:
+   r(A,B)=|S(A)∩S(B)| / |S(A)∪S(B)|
 
 ##代码实现
 
