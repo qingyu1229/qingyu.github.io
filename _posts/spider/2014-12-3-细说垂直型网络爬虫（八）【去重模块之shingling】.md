@@ -24,14 +24,14 @@ document—that can be used to gauge the similarity of two documents. The w deno
 in the set.
 比如，一个文档
    "a rose is a rose is a rose"
-分词后的词汇(token，语汇单元)集合是
+分词后的词汇(token，语汇单元)集合是  
    (a,rose,is,a,rose,is, a, rose)
 那么w=4的4-shingling就是集合:
    { (a,rose,is,a), (rose,is,a,rose), (is,a,rose,is), (a,rose,is,a), (rose,is,a,rose) }
 去掉重复的子集合：
    { (a,rose,is,a), (rose,is,a,rose), (is,a,rose,is) }
 给定shingle的大小,两个文档A和B的相似度 r 定义为:
-   r(A,B)=|S(A)∩S(B)| / |S(A)∪S(B)|  
+   r(A,B)=|S(A)∩S(B)| / |S(A)∪S(B)|
 
 ##代码实现
 
