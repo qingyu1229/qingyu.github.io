@@ -17,6 +17,7 @@ date: 2014-12-3
 <!-- more -->
  
 ##shingling算法简介
+>
 借用维基百科对于shingling算法的解释：
 In natural language processing a w-shingling is a set of unique "shingles"—contiguous subsequences of tokens in a
 document—that can be used to gauge the similarity of two documents. The w denotes the number of tokens in each shingle
